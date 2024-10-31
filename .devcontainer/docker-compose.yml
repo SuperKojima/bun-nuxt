@@ -4,7 +4,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     volumes:
-      - ../:/workspace/bun-nuxt
+      - ../:/var/www/html
     ports:
       - '3000:3000'
     tty: true

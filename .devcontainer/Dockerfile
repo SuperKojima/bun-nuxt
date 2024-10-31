@@ -1,5 +1,7 @@
 FROM oven/bun:latest
 
+RUN mkdir -p /var/www/html
+
 RUN apt-get update -qq \
     && apt-get install -qq -y --no-install-recommends \
       curl \
@@ -7,7 +9,7 @@ RUN apt-get update -qq \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /src/*.deb
 
-# COPY ../ /workspace/
+COPY ../ /var/www/html
 
 RUN bun install
 
