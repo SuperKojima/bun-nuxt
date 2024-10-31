@@ -6,7 +6,8 @@
 	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.20",
 	"features": {
 		"ghcr.io/prulloac/devcontainer-features/bun:1": {}
-	}
+	},
+	"postCreateCommand": "bun install"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
