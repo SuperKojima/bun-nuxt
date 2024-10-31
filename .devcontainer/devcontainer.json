@@ -2,7 +2,7 @@
     "name": "codespace-nuxt",
     "dockerComposeFile": "./docker-compose.yml",
     "service": "app",
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "workspaceFolder": "/workspace/bun-nuxt",
     "remoteUser": "www-data",
     "forwardPorts": [3000],
     "portsAttributes": {

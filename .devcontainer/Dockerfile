@@ -7,7 +7,7 @@ RUN apt-get update -qq \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /src/*.deb
 
-COPY ../ /var/www/html
+# COPY ../ /workspace/
 
 RUN bun install
 
