@@ -1,23 +1,5 @@
 {
-    "name": "codespace-nuxt",
-    "dockerComposeFile": "./docker-compose.yml",
-    "service": "app",
-    "workspaceFolder": "/workspace/bun-nuxt",
-    "remoteUser": "www-data",
-    "forwardPorts": [3000],
-    "portsAttributes": {
-        "3000": {
-            "label": "app"
-        }
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "dbaeumer.vscode-eslint"
-            ],
-            "settings": {
-                "eslint.enable": true
-            }
-        }
+    "features": {
+        "ghcr.io/prulloac/devcontainer-features/bun:latest": {}
     }
 }
