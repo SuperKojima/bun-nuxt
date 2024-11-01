@@ -6,6 +6,7 @@ Nuxt.js学習の第一歩のための環境。
 
 - [Vue.js](https://ja.vuejs.org/)
 - [Nuxt.js](https://nuxt.com/)
+- [Vite](https://ja.vite.dev/)
 - [Tailwind CSS](https://tailwindcss.com/docs/aspect-ratio)
 - [Bun](https://bun.sh/)
 
