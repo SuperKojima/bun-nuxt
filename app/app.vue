@@ -1,7 +1,6 @@
 <template>
   <div>
-    <button class="bg-lime-500 text-xs">
-      unko
-    </button>
+    <NuxtRouteAnnouncer />
+    <NuxtWelcome />
   </div>
 </template>
