@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^3.8.0",
+    "@nuxtjs/tailwindcss": "^6.12.2",
     "nuxt": "^3.13.2",
     "vue": "latest",
     "vue-router": "latest"
