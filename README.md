@@ -1,5 +1,9 @@
 # Nuxt on Bun
 
+- [Nuxt.js](https://nuxt.com/)
+- [Bun](https://bun.sh/)
+- [Tailwind CSS](https://tailwindcss.com/docs/aspect-ratio)
+
 ## Commands
 
 ```bash
