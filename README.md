@@ -1,8 +1,11 @@
 # Nuxt on Bun
 
+## Docs
+
+- [Vue.js](https://ja.vuejs.org/)
 - [Nuxt.js](https://nuxt.com/)
-- [Bun](https://bun.sh/)
 - [Tailwind CSS](https://tailwindcss.com/docs/aspect-ratio)
+- [Bun](https://bun.sh/)
 
 ## Commands
 
