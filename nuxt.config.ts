@@ -5,4 +5,12 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  modules: [
+    '@nuxt/eslint',
+  ],
+  eslint: {
+    config: {
+      standalone: false,
+    },
+  },
 })
