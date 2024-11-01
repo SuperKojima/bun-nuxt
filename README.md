@@ -1,75 +1,26 @@
-# Nuxt Minimal Starter
+# Nuxt on Bun
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install dependencies:
+## Commands
 
 ```bash
-# npm
-npm install
+# 開発サーバー起動
+bun dev
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+# コーディングルールチェック
+bun lint
+bun lint:fix
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+もし型でエラー出てるけど絶対大丈夫だと思ったら以下を試すと良い。
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+rm -r .nuxt
+bun postinstall
+# cmd + shift + P
+# -> Reload Window
 ```
 
-## Production
+## Modules
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [Nuxt ESLint](https://eslint.nuxt.com/)
+- [Nuxt Tailwind](https://tailwindcss.nuxtjs.org/)
