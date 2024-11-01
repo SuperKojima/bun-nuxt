@@ -1,5 +1,7 @@
 # Nuxt on Bun
 
+Nuxt.js学習の第一歩のための環境。
+
 ## Docs
 
 - [Vue.js](https://ja.vuejs.org/)
